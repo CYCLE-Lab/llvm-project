@@ -32,7 +32,7 @@ jobs:
       - name: Install Python Packages
         run: |
           sudo pip3 install lit numpy
-          sudo pip3 install pybind11
+          sudo pip3 install pybind11==2.13.6 nanobind
 
       - name: Configure CMake
         run: |
